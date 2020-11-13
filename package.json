@@ -1,0 +1,32 @@
+{
+  "name": "esri-cedar-in-react-forked",
+  "version": "1.0.0",
+  "description": "An example of a simple CedarChart spec in create-react-app. This component takes a Cedar spec as a prop and renders the corresponding JSON.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@esri/arcgis-rest-feature-layer": "2.21.0",
+    "@esri/arcgis-rest-request": "2.21.0",
+    "@esri/cedar": "1.0.1",
+    "amcharts3": "3.21.15",
+    "esri-loader": "^2.16.0",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
